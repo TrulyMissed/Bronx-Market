@@ -3,6 +3,10 @@
     --bg: #2d2d2d;
 }
 
+html {
+    background-color: #1f1f1f;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,6 +14,8 @@
 body {
     margin: 0;
     min-height: 100vh;
+    min-height: 100dvh;
+    background-color: #1f1f1f;
     background: linear-gradient(180deg, #2b2b2b 0%, #242424 40%, #1f1f1f 100%);
     color: white;
     font-family: system-ui, sans-serif;
